@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.scoreboard {
+    margin-bottom: 20px;
+}
+
+button.choice {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button.choice:hover {
+    background-color: #ddd;
+}
+
+button#rock {
+    background-color: #f44336;
+    color: white;
+}
+
+button#paper {
+    background-color: #2196F3;
+    color: white;
+}
+
+button#scissors {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.difficulty {
+    margin-bottom: 20px;
+}
+
+button#resetGame {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#resetGame:hover {
+    background-color: #e67e22;
+}
+
+.result p {
+    font-size: 18px;
+    font-weight: bold;
+}
